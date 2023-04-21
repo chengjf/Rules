@@ -1,0 +1,136 @@
+# 2023-04-03 15:08
+
+# ======= A ======= #
+# 安全浏览限制解除
+DOMAIN-SUFFIX, lookup.api.bsb.baidu.com, REJECT
+DOMAIN-SUFFIX, proxy.safebrowsing.apple, REJECT
+DOMAIN-SUFFIX, safebrowsing.g.applimg.com, REJECT
+DOMAIN-SUFFIX, safebrowsing.googleapis.com, REJECT
+DOMAIN-SUFFIX, safebrowsing.urlsec.qq.com, REJECT
+DOMAIN-SUFFIX, token.safebrowsing.apple, REJECT
+DOMAIN-SUFFIX, vs6.bj2ct.u3.ucweb.com, REJECT
+HOST-SUFFIX, u3.ucweb.com, REJECT
+
+# ======= C ======= #
+# Clue 智库
+DOMAIN-SUFFIX, api.helloclue.com, REJECT
+DOMAIN-SUFFIX, brahe.apptimize.com, REJECT
+DOMAIN-SUFFIX, collector.clue.run, REJECT
+DOMAIN-SUFFIX, mapi.apptimize.com, REJECT
+DOMAIN-SUFFIX, md-i-s.apptimize.com, REJECT
+DOMAIN-SUFFIX, images.ctfassets.net, REJECT
+
+# ======= F ======= #
+# Flurry
+DOMAIN-SUFFIX, data.flurry.com, REJECT
+# Foreca & Google
+DOMAIN-SUFFIX, googleads.g.doubleclick-cn.net, REJECT
+DOMAIN-SUFFIX, googleads.g.doubleclick.net, REJECT
+DOMAIN-SUFFIX, pubads.g.doubleclick.net, REJECT
+DOMAIN-SUFFIX, pagead2.googlesyndication.com, REJECT
+
+# ======= H ======= #
+# HTTPDNS 服务器
+## 阿里云
+IP-CIDR, 203.107.1.1/32, REJECT
+## 百度贴吧
+IP-CIDR, 186.76.76.200/32, REJECT
+
+# ======= G ======= #
+# 高德地图
+DOMAIN-SUFFIX, amap-aos-info-nogw.amap.com, REJECT
+DOMAIN-SUFFIX, awaken.amap.com, REJECT
+DOMAIN-SUFFIX, free-aos-cdn-image.amap.com, REJECT
+# 工商银行 开屏广告
+DOMAIN-SUFFIX, pageviewp.icbc.com.cn, REJECT
+# 广告联盟
+DOMAIN-SUFFIX, is.snssdk.com, REJECT
+DOMAIN-SUFFIX, mi.gdt.qq.com, REJECT
+DOMAIN-SUFFIX, open.e.kuaishou.com, REJECT
+HOST-SUFFIX, pangolin-sdk-toutiao.com, REJECT
+HOST-SUFFIX, pangolin-sdk-toutiao-b.com, REJECT
+
+# ======= K ======= #
+# 酷我音乐
+DOMAIN-SUFFIX, ad.tencentmusic.com, REJECT
+DOMAIN-SUFFIX, g.koowo.com, REJECT
+DOMAIN-SUFFIX, mobilead.kuwo.cn, REJECT
+DOMAIN-SUFFIX, rich.kuwo.cn, REJECT
+DOMAIN-SUFFIX, tmead.y.qq.com, REJECT
+DOMAIN-SUFFIX, tmeadcomm.y.qq.com, REJECT
+
+# ======= L ======= #
+# 蓝奏云
+DOMAIN-SUFFIX, pos.baidu.com, REJECT
+DOMAIN-SUFFIX, statics.woozooo.com, REJECT
+
+# ======= M ======= #
+# 美颜相机
+DOMAIN-SUFFIX, aaid.uyunad.com, REJECT
+DOMAIN-SUFFIX, adui.tg.meitu.com, REJECT
+
+# ======= O ======= #
+# Outlook
+DOMAIN-SUFFIX, acdn.adnxs.com, REJECT
+DOMAIN-SUFFIX, mediation.adnxs.com, REJECT
+DOMAIN-SUFFIX, sin3-ib.adnxs.com, REJECT
+
+# ======= R ======= #
+# RARBG 推广跳转
+DOMAIN-SUFFIX, bravetense.com, REJECT
+DOMAIN-SUFFIX, furiousfar.com, REJECT
+DOMAIN-SUFFIX, swallowcrockerybless.com, REJECT
+
+# ======= S ======= #
+# 什么值得买
+DOMAIN-SUFFIX, api.zuihuimai.com, REJECT
+# 数字联盟
+HOST-SUFFIX, shuzilm.cn, REJECT
+
+# ======= T ======= #
+# 腾讯 无法使用的推送服务
+DOMAIN-SUFFIX, tpns.qq.com, REJECT
+
+# ======= W ======= #
+# 网易云音乐
+DOMAIN-SUFFIX, gdt.qq.com, REJECT
+DOMAIN-SUFFIX, httpdns.n.netease.com, REJECT
+DOMAIN-SUFFIX, iadmat.nosdn.127.net, REJECT
+DOMAIN-SUFFIX, iadmusicmat.music.126.net, REJECT
+DOMAIN-SUFFIX, iadmusicmatvideo.music.126.net, REJECT
+HOST-SUFFIX, 163jiasu.com, REJECT
+# 微博 开屏广告
+DOMAIN-SUFFIX, adstrategy.biz.weibo.com, REJECT
+DOMAIN-SUFFIX, boot.biz.weibo.com, REJECT
+DOMAIN-SUFFIX, kadmimage.biz.weibo.com, REJECT
+DOMAIN-SUFFIX, sdkaction.biz.weibo.com, REJECT
+DOMAIN-SUFFIX, sdkclick.biz.weibo.com, REJECT
+DOMAIN-SUFFIX, sdkmonitor.biz.weibo.com, REJECT
+
+# ======= X ======= #
+# 小米
+DOMAIN-SUFFIX, sdkconfig.ad.xiaomi.com, REJECT
+# 迅雷 解除版权限制
+DOMAIN-SUFFIX, hub5btmain.v6.shub.sandai.net, REJECT
+DOMAIN-SUFFIX, hub5emu.v6.shub.sandai.net, REJECT
+DOMAIN-SUFFIX, hub5idx.v6.shub.sandai.net, REJECT
+
+# ======= Y ======= #
+# 云闪付 开屏广告
+DOMAIN-SUFFIX, ads.95516.com, REJECT
+DOMAIN-SUFFIX, cm-10-138.getui.com, REJECT
+DOMAIN-SUFFIX, sdk.open.talk.getui.net, REJECT
+DOMAIN-SUFFIX, sdk-conf.getui.com, REJECT
+DOMAIN-SUFFIX, switch.cup.com.cn, REJECT
+DOMAIN-SUFFIX, tysdk.95516.com, REJECT
+
+# ======= Z ======= #
+# 知乎
+DOMAIN-SUFFIX, appcloud.zhihu.com, REJECT
+DOMAIN-SUFFIX, appcloud2.in.zhihu.com, REJECT
+DOMAIN-SUFFIX, crash2.zhihu.com, REJECT
+DOMAIN-SUFFIX, mqtt.zhihu.com, REJECT
+DOMAIN-SUFFIX, sugar.zhihu.com, REJECT
+IP-CIDR, 118.89.204.198/32, REJECT
+IP-CIDR, 103.41.167.237/32, REJECT
+IP6-CIDR, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
