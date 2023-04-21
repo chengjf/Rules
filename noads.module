@@ -1,5 +1,9 @@
+#!name=去广告自用
+#!desc=去广告自用
+
 # 2023-04-03 15:08
 
+[Rule]
 # ======= A ======= #
 # 安全浏览限制解除
 DOMAIN-SUFFIX, lookup.api.bsb.baidu.com, REJECT
